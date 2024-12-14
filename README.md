@@ -4,7 +4,7 @@ agent any
 stages {
 stage('Build') {
 steps {
-git 'https://github.com/your-repo/ecommerce-app.git'
+git 'https://github.com/kunchamgiridhar/sonu.git'
 sh 'mvn clean install'
 }
 }
